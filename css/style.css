@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../assets/images/WhatsApp\ Image\ 2024-05-09\ at\ 13.38.03.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -80,20 +80,27 @@ button{
     background-color: transparent;
     border-color: #272262;
     color: #272262;
-    padding: 7px;
+    padding: 5px;
     font-weight: bold;
     font-size: 13pt;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     outline: none;
     transition: all .4s ease-out;
+    width: 88px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     
 }
 
 button:hover{
     background-color: #272262;
     color: #fff;
+
+    width: 95px;
+    height: 40px;
 }
 
 .centralizar{
