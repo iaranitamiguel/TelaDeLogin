@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-home {
+    background-color: rgb(22, 0, 46);
+    height: 75px;
+    width: 100%;
+}
+
+.tela-entrada{
+    background-image:url(../assets/images/Post\ instagram\ pet\ shop\ agropecuária\ roxo\ branco\ amarelo.png) ;
+    background-size:100% ;
+    background-repeat: 100%;
+
+    width: 100%;
+    height: 570px;
+    margin-top: -30px;
+
+}
+
+.bot-login {
+    border-radius: 58px;
+    background-color: rgb(22, 0, 46);
+    color: aliceblue;
+
+    width: 9em;
+    height: 3em;
+
+ position:absolute;
+    left: 75%;
+    margin-top: 32%;
+   
+    cursor: pointer;
+    
+}
+
+.bot-login:hover {
+    
+}
