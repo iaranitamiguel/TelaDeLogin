@@ -26,17 +26,19 @@
     background-color: rgb(22, 0, 46);
     color: aliceblue;
 
-    width: 9em;
-    height: 3em;
+    width: 7em;
+    height: 25px;
 
- position:absolute;
-    left: 75%;
+    position: fixed;
     margin-top: 32%;
-   
+    margin-left: 990px;
+    padding:1em 1.2em;
+    text-align: center;
     cursor: pointer;
     
 }
 
 .bot-login:hover {
-    
+    width: 9em;
+    height: 30px;
 }
