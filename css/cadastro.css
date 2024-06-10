@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
 @font-face {
     font-family:'circular-bold' ;
     src: url(../assets/fonts/CircularSp-Bold-fe1cfc14b7498b187c78fa72fb72d148.woff2);
 }
+
 
 *{
     margin: 0;
@@ -20,17 +24,22 @@
 }
 
 .titulo-cadastro{
-    text-align: center;
+    
+
     margin-bottom: 20px;
     color: #272262;
 
-    font-family: 'circular-bold';
+    font-family: 'Concert one';
+    font-size: 45px;
+    
+    margin-left: 212px;
+    margin-top: 50px;
 
 }
 
 .part1-tela{
-    background-image: url(../assets/images/WhatsApp\ Image\ 2024-05-09\ at\ 13.38.03.jpeg);
-    width: 630px;
+    background-image: url(../assets/images/tela-cadastro-pet.png);
+    width: 740px;
     height: 599px;
 }
 
@@ -41,8 +50,8 @@
     background-color: rgb(237, 245, 242);
     border-radius: 4%;
 
-    margin-left: 250px;
-    margin-top: 100px;
+    margin-left: 220px;
+    margin-top:50px;
 
   
   
@@ -61,6 +70,7 @@
     transition: all .3s ease-out;
     border-radius: 0;
     
+    font-family: 'Concert one';
 }
 
 .label-login{
@@ -82,6 +92,7 @@
     left: 0;
     margin-top: 13px;
     transition: all .3s ease-out;
+    font-family: 'Concert one';
 }
 
 .label-login input:focus + label,
@@ -90,5 +101,28 @@
     font-size: 13px;
     margin-top: 0;
     color: #4038a0;
+    font-family: 'Concert one';
 
+}
+
+.bot-cadastro{
+    border-radius: 25px;
+    background-color: #4038a0;
+    border: 0;
+    
+    color: aliceblue;
+
+    cursor: pointer;
+    width: 85px;
+    height: 45px;
+
+    text-align: center;
+    margin-left: 72px;
+    margin-top: 25px;
+}
+
+.bot-cadastro:hover{
+    width: 85px;
+    height: 52px;
+    border-radius: 25px;
 }
